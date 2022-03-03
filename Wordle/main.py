@@ -36,7 +36,7 @@ class Box:
 
     def draw(self):
         pygame.draw.rect(self.win, self.color, self.rect)
-        Win.blit(FONT.render(self.text, True, (255,255,255)), (self.x+10, self.y-10))
+        Win.blit(FONT.render(self.text.upper(), True, (255,255,255)), (self.x+10, self.y-10))
 
 def WonScreen(Win):
     Win.blit(WinnerPic, (0,0))
