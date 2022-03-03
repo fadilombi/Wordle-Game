@@ -2,8 +2,6 @@ import json
 import pygame
 import random
 
-from pyparsing import Word
-
 pygame.init()
 
 
